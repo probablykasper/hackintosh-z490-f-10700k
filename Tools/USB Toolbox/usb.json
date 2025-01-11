@@ -1,0 +1,738 @@
+[
+    {
+        "class": 48,
+        "hub_name": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+        "identifiers": {
+            "acpi_path": "\\_SB.PCI0.XHC",
+            "bdf": [
+                0,
+                20,
+                0
+            ],
+            "driver_key": "{36fc9e60-c465-11cf-8056-444553540000}\\0000",
+            "instance_id": "PCI\\VEN_8086&DEV_06ED&SUBSYS_86941043&REV_00\\3&11583659&0&A0",
+            "location_paths": [
+                "PCIROOT(0)#PCI(1400)",
+                "ACPI(_SB_)#ACPI(PCI0)#ACPI(XHC_)"
+            ],
+            "pci_id": [
+                "8086",
+                "6ed",
+                "8694",
+                "1043"
+            ]
+        },
+        "name": "Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft)",
+        "port_count": 26,
+        "ports": [
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 17
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_0781&PID_5567\\4C530002010721118180",
+                        "name": "Cruzer Blade",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 3,
+                "index": 1,
+                "name": "Port 1",
+                "selected": true,
+                "selection_index": 1,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 18
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_0781&PID_5567\\4C530002010721118180",
+                        "name": "Cruzer Blade",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 3,
+                "index": 2,
+                "name": "Port 2",
+                "selected": true,
+                "selection_index": 2,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 19
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_0781&PID_5567\\4C530002010721118180",
+                        "name": "Cruzer Blade",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 3,
+                "index": 3,
+                "name": "Port 3",
+                "selected": true,
+                "selection_index": 3,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": true,
+                    "port": 20
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_05AC&PID_0267\\F0T81340015J1XYA8",
+                        "name": "Magic Keyboard",
+                        "speed": 1
+                    },
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_2A70&PID_F003\\F5330CE8",
+                        "name": "Android",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 9,
+                "index": 4,
+                "name": "Port 4",
+                "selected": true,
+                "selection_index": 4,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": true,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": true,
+                    "port": 21
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_05AC&PID_0267\\F0T81340015J1XYA8",
+                        "name": "Magic Keyboard",
+                        "speed": 1
+                    },
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_2A70&PID_F003\\F5330CE8",
+                        "name": "Android",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 9,
+                "index": 5,
+                "name": "Port 5",
+                "selected": true,
+                "selection_index": 5,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": true,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "",
+                    "multiple_companions": false,
+                    "port": 0
+                },
+                "devices": [
+                    {
+                        "devices": [
+                            {
+                                "devices": [],
+                                "instance_id": "USB\\VID_0781&PID_5567\\4C530002010721118180",
+                                "name": "Cruzer Blade",
+                                "speed": 2
+                            },
+                            {
+                                "devices": [],
+                                "instance_id": "USB\\VID_05AC&PID_0267\\F0T542500W6GD6LA9",
+                                "name": "Magic Keyboard",
+                                "speed": 1
+                            },
+                            {
+                                "devices": [],
+                                "instance_id": "USB\\VID_046D&PID_C548\\6&2620F08B&0&1",
+                                "name": "USB Receiver",
+                                "speed": 1
+                            },
+                            {
+                                "devices": [],
+                                "instance_id": "USB\\VID_059F&PID_1075\\MSFT30115A000625C6",
+                                "name": "Rugged THB USB 3.0",
+                                "speed": 2
+                            }
+                        ],
+                        "instance_id": "USB\\VID_05E3&PID_0610\\5&1A60D403&0&6",
+                        "name": "USB2.0 Hub",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 255,
+                "index": 6,
+                "name": "Port 6",
+                "selected": true,
+                "selection_index": 6,
+                "status": "DeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": false
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 23
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_046D&PID_C548\\5&1A60D403&0&7",
+                        "name": "USB Receiver",
+                        "speed": 1
+                    },
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_0781&PID_5567\\4C530002010721118180",
+                        "name": "Cruzer Blade",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 3,
+                "index": 7,
+                "name": "Port 7",
+                "selected": true,
+                "selection_index": 7,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 24
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_05AC&PID_0267\\F0T542500W6GD6LA9",
+                        "name": "Magic Keyboard",
+                        "speed": 1
+                    },
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_0781&PID_5567\\4C530002010721118180",
+                        "name": "Cruzer Blade",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 3,
+                "index": 8,
+                "name": "Port 8",
+                "selected": true,
+                "selection_index": 8,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 25
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_0781&PID_5567\\4C530002010721118180",
+                        "name": "Cruzer Blade",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 3,
+                "index": 9,
+                "name": "Port 9",
+                "selected": false,
+                "selection_index": 9,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 26
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_0781&PID_5567\\4C530002010721118180",
+                        "name": "Cruzer Blade",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 3,
+                "index": 10,
+                "name": "Port 10",
+                "selected": false,
+                "selection_index": 10,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "",
+                    "multiple_companions": false,
+                    "port": 0
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_0B05&PID_18F3\\9876543210",
+                        "name": "AURA LED Controller",
+                        "speed": 1
+                    }
+                ],
+                "guessed": 255,
+                "index": 11,
+                "name": "Port 11",
+                "selected": false,
+                "selection_index": 11,
+                "status": "DeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": false
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "",
+                    "multiple_companions": false,
+                    "port": 0
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_0781&PID_5567\\4C530002010721118180",
+                        "name": "Cruzer Blade",
+                        "speed": 2
+                    },
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_059F&PID_1075\\MSFT30115A000625C6",
+                        "name": "Rugged THB USB 3.0",
+                        "speed": 2
+                    },
+                    {
+                        "devices": [],
+                        "instance_id": null,
+                        "name": "Unknown Device",
+                        "speed": 0
+                    }
+                ],
+                "guessed": 0,
+                "index": 12,
+                "name": "Port 12",
+                "selected": false,
+                "selection_index": 12,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "",
+                    "multiple_companions": false,
+                    "port": 0
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_0781&PID_5567\\4C530002010721118180",
+                        "name": "Cruzer Blade",
+                        "speed": 2
+                    },
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_059F&PID_1075\\MSFT30115A000625C6",
+                        "name": "Rugged THB USB 3.0",
+                        "speed": 2
+                    }
+                ],
+                "guessed": 0,
+                "index": 13,
+                "name": "Port 13",
+                "selected": false,
+                "selection_index": 13,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "",
+                    "multiple_companions": false,
+                    "port": 0
+                },
+                "devices": [],
+                "guessed": 255,
+                "index": 14,
+                "name": "Port 14",
+                "selected": false,
+                "selection_index": 14,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": false
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "",
+                    "multiple_companions": false,
+                    "port": 0
+                },
+                "devices": [],
+                "guessed": 255,
+                "index": 15,
+                "name": "Port 15",
+                "selected": false,
+                "selection_index": 15,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": false
+            },
+            {
+                "class": 2,
+                "comment": null,
+                "companion_info": {
+                    "hub": "",
+                    "multiple_companions": false,
+                    "port": 0
+                },
+                "devices": [],
+                "guessed": 255,
+                "index": 16,
+                "name": "Port 16",
+                "selected": false,
+                "selection_index": 16,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": false
+            },
+            {
+                "class": 3,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 1
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_059F&PID_1075\\MSFT30115A000625C6",
+                        "name": "Rugged THB USB 3.0",
+                        "speed": 3
+                    }
+                ],
+                "guessed": 3,
+                "index": 17,
+                "name": "Port 17",
+                "selected": true,
+                "selection_index": 17,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 3,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 2
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_059F&PID_1075\\MSFT30115A000625C6",
+                        "name": "Rugged THB USB 3.0",
+                        "speed": 3
+                    }
+                ],
+                "guessed": 3,
+                "index": 18,
+                "name": "Port 18",
+                "selected": true,
+                "selection_index": 18,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 3,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 3
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_059F&PID_1075\\MSFT30115A000625C6",
+                        "name": "Rugged THB USB 3.0",
+                        "speed": 3
+                    },
+                    {
+                        "devices": [],
+                        "instance_id": null,
+                        "name": "Unknown Device",
+                        "speed": 0
+                    }
+                ],
+                "guessed": 3,
+                "index": 19,
+                "name": "Port 19",
+                "selected": true,
+                "selection_index": 19,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 3,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": true,
+                    "port": 4
+                },
+                "devices": [],
+                "guessed": 9,
+                "index": 20,
+                "name": "Port 20",
+                "selected": true,
+                "selection_index": 20,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": true,
+                "user_connectable": true
+            },
+            {
+                "class": 3,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": true,
+                    "port": 5
+                },
+                "devices": [],
+                "guessed": 9,
+                "index": 21,
+                "name": "Port 21",
+                "selected": true,
+                "selection_index": 21,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": true,
+                "user_connectable": true
+            },
+            {
+                "class": 3,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": true,
+                    "port": 5
+                },
+                "devices": [],
+                "guessed": 9,
+                "index": 22,
+                "name": "Port 22",
+                "selected": false,
+                "selection_index": 22,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": true,
+                "user_connectable": true
+            },
+            {
+                "class": 3,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 7
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_059F&PID_1075\\MSFT30115A000625C6",
+                        "name": "Rugged THB USB 3.0",
+                        "speed": 3
+                    }
+                ],
+                "guessed": 3,
+                "index": 23,
+                "name": "Port 23",
+                "selected": true,
+                "selection_index": 23,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 3,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 8
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_059F&PID_1075\\MSFT30115A000625C6",
+                        "name": "Rugged THB USB 3.0",
+                        "speed": 3
+                    }
+                ],
+                "guessed": 3,
+                "index": 24,
+                "name": "Port 24",
+                "selected": true,
+                "selection_index": 24,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 3,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 9
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_059F&PID_1075\\MSFT30115A000625C6",
+                        "name": "Rugged THB USB 3.0",
+                        "speed": 3
+                    }
+                ],
+                "guessed": 3,
+                "index": 25,
+                "name": "Port 25",
+                "selected": false,
+                "selection_index": 25,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            },
+            {
+                "class": 3,
+                "comment": null,
+                "companion_info": {
+                    "hub": "USB#ROOT_HUB30#4&73f3995&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}",
+                    "multiple_companions": false,
+                    "port": 10
+                },
+                "devices": [
+                    {
+                        "devices": [],
+                        "instance_id": "USB\\VID_059F&PID_1075\\MSFT30115A000625C6",
+                        "name": "Rugged THB USB 3.0",
+                        "speed": 3
+                    }
+                ],
+                "guessed": 3,
+                "index": 26,
+                "name": "Port 26",
+                "selected": false,
+                "selection_index": 26,
+                "status": "NoDeviceConnected",
+                "type": null,
+                "type_c": false,
+                "user_connectable": true
+            }
+        ],
+        "selected_count": 15
+    }
+]

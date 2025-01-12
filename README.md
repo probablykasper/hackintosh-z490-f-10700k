@@ -57,8 +57,3 @@ Enabled PTT
 Disabled Serial Port
 Disabled Fast Boot
 Resizable bar off
-
-## Todo
-- Test if we need SATA-Unsupported/CtlnaAHCIPort kext
-- ResizeAppleGpuBars
-- Is unfairgva=1 needed for dGPU? Probably not

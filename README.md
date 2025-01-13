@@ -1,3 +1,8 @@
+### Sonoma installation boot loop fix
+`SecureBootModel` needs to be set to `Disabled` during the install process, and can be set back to `Default` after. Explanations:
+- https://github.com/dortania/OpenCore-Install-Guide/pull/463/files
+- https://github.com/dortania/OpenCore-Install-Guide/pull/473/files
+
 ### Sleep settings
 sudo pmset proximitywake 0
 sudo pmset hibernatemode 0

@@ -1,5 +1,5 @@
 ### Personal notes
-- Windows installation will mess up the OpenCore EFI partition. To prevent, unplug all drives. M.2 drives can be disabled by using an invalid configuration in UEFI `Advanced`/`Onboard Devices Configuration` (for example configure an NVMe drive as SATA)
+- Windows installation will mess up the OpenCore EFI partition. To prevent, unplug all drives. M.2 drives can be disabled by using an invalid configuration in UEFI `Advanced`/`Onboard Devices Configuration` (for example configure an NVMe drive as SATA). If the EFI does get messed up, simply boot using a USB drive, mount the EFI and paste in the correct EFI.
 
 ### Sonoma installation boot loop fix
 `SecureBootModel` needs to be set to `Disabled` during the install process, and can be set back to `Default` after. Explanations:

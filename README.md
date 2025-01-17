@@ -7,30 +7,31 @@
 - https://github.com/dortania/OpenCore-Install-Guide/pull/473/files
 
 ### Sleep settings
-sudo pmset proximitywake 0
-sudo pmset hibernatemode 0
+- `sudo pmset proximitywake 0`
+- `sudo pmset hibernatemode 0`
 
 ### Mount EFI
-./Hackintosh/MountEFI/MountEFI.command MacHD
+`./Hackintosh/MountEFI/MountEFI.command MacHD`
 
 ### BIOS
-Enabled Intel (VMX) Virtualization Technology
-Enabled VT-d
-Enabled PTT
-Disabled Serial Port
-Disabled Fast Boot
-Resizable bar off
+- Enabled Intel (VMX) Virtualization Technology
+- Enabled VT-d
+- Enabled PTT
+- Disabled Serial Port
+- Disabled Fast Boot
+- Resizable bar off
 
 ## Hardware
-10700k
-Intel UHD Graphics 630 (30.0.100.9805)
-Dedicated GPU N/A
-Chipset: Z490
-ASUS ROG Strix Z490-F
-Intel Ethernet Controller I225-V #2
+- 10700k
+- Intel UHD Graphics 630 (30.0.100.9805)
+- Dedicated GPU N/A
+- Chipset: Z490
+- ASUS ROG Strix Z490-F
+- Intel Ethernet Controller I225-V #2
 
 ## Audio
-Audio: Realtek ALC S1220A (PCI ID 10EC,1168)
+Realtek ALC S1220A (PCI ID 10EC,1168)
+
 Layout IDs:
 - 1,2 Too loud
 - 3,5 idk
@@ -38,11 +39,11 @@ Layout IDs:
 - 8,11,13,15,20,21,99 idk
 
 ## Storage
-Samsung 980 1TB (M.2_2 NVMe SSD)
-Kingston SKC2000M8250G 250GB (M.2_1 NVMe SSD)
-Kingston SV300S37A240G 240GB (SATA AHCI SSD)
-ST1000DM010-2EP102 1TB (SATA AHCI HDD)
-Samsung 850 EVO 120GB (SATA AHCI SSD)
+- Samsung 980 1TB (M.2_2 NVMe SSD)
+- Kingston SKC2000M8250G 250GB (M.2_1 NVMe SSD)
+- Kingston SV300S37A240G 240GB (SATA AHCI SSD)
+- ST1000DM010-2EP102 1TB (SATA AHCI HDD)
+- Samsung 850 EVO 120GB (SATA AHCI SSD)
 
 ## USB
 Back:
@@ -59,9 +60,9 @@ Front:
 - Port 11: USB2 (Used by AURA LED controller)
 
 ## Bios
-Enabled Intel (VMX) Virtualization Technology
-Enabled VT-d
-Enabled PTT
-Disabled Serial Port
-Disabled Fast Boot
-Resizable bar off
+- Enabled Intel (VMX) Virtualization Technology
+- Enabled VT-d
+- Enabled PTT
+- Disabled Serial Port
+- Disabled Fast Boot
+- Resizable bar off

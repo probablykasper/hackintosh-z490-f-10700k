@@ -27,7 +27,7 @@
 ## Hardware
 - 10700k
 - Intel UHD Graphics 630 (30.0.100.9805)
-- Dedicated GPU N/A
+- Dedicated GPU: PowerColor Red Devil RX 6600 XT 8GB GPU
 - Chipset: Z490
 - ASUS ROG Strix Z490-F
 - Intel Ethernet Controller I225-V #2
